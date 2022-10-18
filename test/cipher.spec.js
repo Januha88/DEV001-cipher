@@ -12,6 +12,14 @@ describe('cipher', () => {
     expect(typeof cipher).toBe('object');
   });
 
+  it('deberia obrtener el proximo valor ascii en los limites de 65 y 90', () => {
+    const asciiDeF = 70;
+    const offset = 3;
+    expect(cipher.asciiEncode(asciiDeF, offset)).toBe(73);
+    const asciiDeY = 89;
+  
+    expect(cipher.asciiEncode(asciiDeY, offset)).toBe(66);
+  });
   describe('cipher.encode', () => {
 
     it('should be a function', () => {
