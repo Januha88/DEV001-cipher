@@ -4,7 +4,7 @@ Cifrado César
 
 
 Comenzando 🚀
-En este proyecto me insipire en una interfaz donde el usuario pueda iniciar sesión a través de su username y password, lo que le permita realizar y recibir mensajes codificados resguardando allí información netamente confidencial para el mismo, dicha interfaz lleva por nombre <UTUSAN> que es lo mismo que "El Menssajero" en malayo.
+En este proyecto me insipire en una interfaz donde el usuario pueda iniciar sesión a través de su username y password, lo que le permita realizar y recibir mensajes codificados resguardando allí información netamente confidencial para el mismo, dicha interfaz lleva por nombre "UTUSAN" que es lo mismo que "El Menssajero" en malayo.
 
 En cuanto a funcionalidades podría decir que aprendí mucho respecto a JS, fue una especie de rompecoco el hecho de pensar lógicamente y dar instrucciones a la computadora de como debe reflejar todo aquello que quise transmitir en código, definitivamente fue el reto en este proyecto. En cuanto a CSS me disfrute mucho el darle estilo a mi formuladio de Login, me tarde mucho si! pero fue algo igualmente satisfactorio.
 
