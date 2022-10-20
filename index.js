@@ -8,7 +8,6 @@ btnEncode.addEventListener('click', ()=>{
     const message = textarea.value;
     const offset = document.getElementById('offset').value;
    const valorCodificado =  cipher.encode(offset, message);
-   console.log(valorCodificado);
    textarea.value = valorCodificado; 
 })
 
@@ -19,7 +18,6 @@ btnDecode.addEventListener('click', ()=>{
     const message = textarea.value;
     const offset = document.getElementById('offset').value;
     const valorDecodificado = cipher.decode(offset, message); 
-    console.log(valorDecodificado);
     textarea.value = valorDecodificado;
 })
 

@@ -8,8 +8,7 @@ const cipher = {
           let codigo = letra.charCodeAt(0);
           let nextCode = this.asciiEncode(codigo, Number (espacios));
           let nextLetra = String.fromCharCode(nextCode);
-          //console.log( ' esta es la posicion en ASCII ' + nextCode);
-          //console.log( ' este es la letra codificacion ' + nextLetra);
+    
           mensajeCodificado = mensajeCodificado + nextLetra;
       }
       return mensajeCodificado;
@@ -23,9 +22,6 @@ const cipher = {
             let codigo = letra.charCodeAt(0);
             let nextCode = this.asciiDecode(codigo, Number (espacios));
             let nextLetra = String.fromCharCode(nextCode);
-            console.log( codigo, nextCode);
-            //console.log( ' esta es la posicion en ASCII ' + nextCode);
-            //console.log( ' este es la letra codificacion ' + nextLetra);
             mensajeCodificado = mensajeCodificado + nextLetra;
         }
         return mensajeCodificado;
